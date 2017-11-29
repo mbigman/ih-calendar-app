@@ -14,9 +14,9 @@ class ApplicationController < Sinatra::Base
   post '/results' do
     day= params[:date]   # String of "mm-dd"
     periods = say_day(day)
-    # puts "these are the periods: #{periods}"
+    puts "these are the periods: #{periods}"
     @ih_day=day_check(periods)
-    # puts "Here is the #{@ih_day}"
+    puts "Here is the #{@ih_day}"
     erb :results
   end
 

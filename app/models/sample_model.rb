@@ -73,7 +73,7 @@ def day_check(cur_periods)
     
     @day4 = ["P2", "SEC", "BRK", "P4", "ACT", "LUN", "P6"]
     @day6 = ["P2", "SEC", "BRK", "P6", "ACT", "LUN", "P4"]
-    @day3 = ["P1", "BRK", "P3", "LUN", "P5", "BRK", "P6"]
+    @day3 = ["P1", "BRK", "P3", "LUN", "P5", "BRK", "P7"]
     @day5 = ["P1", "BRK", "P5", "LUN", "P7", "BRK", "P3"]
     @day7 = ["P1", "BRK", "P7", "LUN", "P3", "BRK", "P5"]
     if cur_periods == @day4
